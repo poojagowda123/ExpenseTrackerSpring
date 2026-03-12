@@ -1,0 +1,237 @@
+/* ================= GLOBAL ================= */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+}
+
+/* center ONLY auth pages */
+.center-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================= LANDING PAGE ================= */
+
+.landing-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
+    width: 400px;
+}
+
+.landing-card p {
+    margin-bottom: 25px;
+    color: #cbd5e1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #38bdf8;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+/* ================= FORM PAGES ================= */
+
+.form-card {
+    background: rgba(255,255,255,0.08);
+    padding: 35px;
+    border-radius: 12px;
+    width: 380px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.form-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.15);
+    color: white;
+}
+
+.form-card input::placeholder {
+    color: #cbd5e1;
+}
+
+.form-card button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-card button:hover {
+    background: #0ea5e9;
+}
+
+/* ================= SIDEBAR ================= */
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: #1e293b;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 30px;
+    z-index: 1000;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #38bdf8;
+}
+
+.sidebar a {
+    display: block;
+    padding: 14px 22px;
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.sidebar a:hover {
+    background: #334155;
+    color: #fff;
+}
+
+/* ================= MAIN AREA ================= */
+
+.main,
+.dashboard-container {
+    margin-left: 230px;
+    padding: 30px;
+}
+
+/* ================= DASHBOARD ================= */
+
+.dashboard-container h1 {
+    margin-bottom: 25px;
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dashboard-card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    width: 260px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.dashboard-card h3 {
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+.dashboard-table {
+    margin-top: 30px;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* ================= CARDS ================= */
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* ================= TABLE ================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #334155;
+}
+
+tr:nth-child(even) {
+    background: #273549;
+}
+
+/* ================= INPUTS ================= */
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+    background: #334155;
+    color: white;
+}
+
+/* ================= BUTTON ================= */
+
+button {
+    background: #38bdf8;
+    border: none;
+    padding: 10px 15px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
